@@ -1,0 +1,27 @@
+@import "tailwindcss";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: #111;
+  color: #fff;
+}
+input,button{
+  padding: 5px 8px;
+}
+.p-20{
+  padding: 40px;
+}
+.p-10{
+  padding: 20px;
+}
+.mt-5{
+  margin-top: 10px;
+}
