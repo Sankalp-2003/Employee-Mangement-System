@@ -1,15 +1,14 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { FaEyeSlash } from "react-icons/fa";
 import { IoEyeSharp } from "react-icons/io5";
 
-const Login = () => {
+const Login = ({ handleLogin }) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [openEye, setOpenEye] = useState(false);
   const submitHandler = (e) => {
     e.preventDefault();
-    console.log("email is", email);
-    console.log("password is", password);
+    handleLogin(email, password);
     setEmail("");
     setPassword("");
   };
@@ -46,7 +45,7 @@ const Login = () => {
             />
             <div
               onClick={handleEye}
-              className="eye cursor-pointer text-gray-400 absolute top-6 right-5 text-lg"
+              className="eye cursor-pointer text-gray-400 absolute top-4.5 right-5 text-lg"
             >
               {openEye ? <IoEyeSharp /> : <FaEyeSlash />}
             </div>
