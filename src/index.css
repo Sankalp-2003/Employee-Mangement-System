@@ -64,6 +64,15 @@ textarea{
 #tasklist::-webkit-scrollbar{
   display: none;
 }
+#tasklist{
+  scroll-behavior: smooth;
+}
+#allTaskEmp::-webkit-scrollbar{
+  display: none;
+}
 #allTask::-webkit-scrollbar{
   display: none;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
 }
