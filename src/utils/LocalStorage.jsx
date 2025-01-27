@@ -19,6 +19,7 @@ const employees = [
         newTask: true,
         completed: false,
         failed: false,
+        taskDate: "2025-01-20",
       },
       {
         taskTitle: "Add Login Page",
@@ -28,6 +29,7 @@ const employees = [
         newTask: true,
         completed: false,
         failed: false,
+        taskDate: "2025-01-21",
       },
       {
         taskTitle: "Optimize Images",
@@ -38,6 +40,7 @@ const employees = [
         newTask: false,
         completed: true,
         failed: false,
+        taskDate: "2025-01-18",
       },
     ],
   },
@@ -61,6 +64,7 @@ const employees = [
         newTask: false,
         completed: false,
         failed: false,
+        taskDate: "2025-01-19",
       },
       {
         taskTitle: "Fix Footer Links",
@@ -70,6 +74,7 @@ const employees = [
         newTask: false,
         completed: true,
         failed: false,
+        taskDate: "2025-01-18",
       },
     ],
   },
@@ -93,6 +98,7 @@ const employees = [
         newTask: true,
         completed: false,
         failed: false,
+        taskDate: "2025-01-20",
       },
       {
         taskTitle: "Code Review",
@@ -103,6 +109,7 @@ const employees = [
         newTask: false,
         completed: true,
         failed: false,
+        taskDate: "2025-01-17",
       },
     ],
   },
@@ -126,6 +133,7 @@ const employees = [
         newTask: true,
         completed: false,
         failed: false,
+        taskDate: "2025-01-21",
       },
       {
         taskTitle: "Resolve Loading Issue",
@@ -135,6 +143,7 @@ const employees = [
         newTask: false,
         completed: true,
         failed: false,
+        taskDate: "2025-01-18",
       },
     ],
   },
@@ -158,6 +167,7 @@ const employees = [
         newTask: true,
         completed: false,
         failed: false,
+        taskDate: "2025-01-22",
       },
       {
         taskTitle: "Test Payment Gateway",
@@ -167,6 +177,7 @@ const employees = [
         newTask: false,
         completed: false,
         failed: true,
+        taskDate: "2025-01-19",
       },
     ],
   },
